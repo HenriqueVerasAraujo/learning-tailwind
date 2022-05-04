@@ -1,1 +1,1 @@
-Repositório para práticas de tailwind, com hook customizado de darkMode com tailwind.
+Exercício de prática de tailwind para darkMode, com hook customizado.
