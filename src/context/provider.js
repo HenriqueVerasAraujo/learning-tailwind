@@ -1,13 +1,12 @@
 import myContext from "./myContext";
 import React, { useState } from 'react';
 
-export default function provider({ children }) {
- // eslint-disable-next-line react-hooks/rules-of-hooks
- const [test, setTest] = useState('initial Value');
+export default function Provider({ children }) {
+ const [globalDarkMode, setGlobalDarkMode] = useState('dark');
 
 const contextValue = {
-  test,
-  setTest,
+  globalDarkMode,
+  setGlobalDarkMode
 };
 
   return (
