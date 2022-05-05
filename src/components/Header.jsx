@@ -1,5 +1,4 @@
 import React from 'react'
-import {LinkIcon} from '@heroicons/react/outline';
 import { MenuIcon } from '@heroicons/react/outline';
 import DndLogo from '../assets/dndLogo';
 
@@ -12,14 +11,14 @@ export default function Header() {
 						<DndLogo />
 				</div>
 				<div className='hidden md:flex justify-between'>
-					<h2 className='px-4 text-1xl text-zinc-700 font-bold'>PRODUCTS</h2>
-					<h2 className='px-4 text-1xl text-zinc-700 font-bold'>GAMEPLAY</h2>
-					<h2 className='px-4 text-1xl text-zinc-700 font-bold'>STORY</h2>
-					<h2 className='px-4 text-1xl text-zinc-700 font-bold'>EVENTS</h2>
+					<h2 className='px-4 text-1xl hover:text-red-700 text-zinc-700 font-bold'>PRODUCTS</h2>
+					<h2 className='px-4 text-1xl hover:text-red-700 text-zinc-700 font-bold'>GAMEPLAY</h2>
+					<h2 className='px-4 text-1xl hover:text-red-700 text-zinc-700 font-bold'>STORY</h2>
+					<h2 className='px-4 text-1xl hover:text-red-700 text-orange-200text-zinc-700 font-bold'>EVENTS</h2>
 				</div>
 				<div className='hidden md:flex'>
-					<h2 className='text-1xl px-4 text-zinc-700'>Store Locator</h2>
-					<h2 className='text-1xl text-zinc-700'>Account</h2>
+					<h2 className='text-1xl px-4 hover:text-red-700 text-zinc-700'>Store Locator</h2>
+					<h2 className='text-1xl hover:text-red-700 text-zinc-700'>Account</h2>
 				</div>
 			</div>
     </div>
