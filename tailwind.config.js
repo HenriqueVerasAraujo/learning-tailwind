@@ -3,6 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    extend: {
+      fontFamily: {
+        Roboto: "'Roboto', sans-serif",
+      }
+    },
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
