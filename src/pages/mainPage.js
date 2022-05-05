@@ -1,7 +1,10 @@
 import React from 'react'
+import SimpleSlider from '../helpers/slick'
 
 export default function MainPage() {
   return (
-    <div className='text-2xl font-bold'>mainPage</div>
+    <div>
+      <SimpleSlider />
+    </div>
   )
 }
