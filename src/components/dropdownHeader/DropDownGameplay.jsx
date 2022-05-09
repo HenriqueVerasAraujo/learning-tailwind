@@ -17,9 +17,44 @@ export default function DropDownGameplay({ active } ) {
         <li>All</li>
     </ul>
     </div>
+    <div className='flex flex-col'>
+        <div className='mb-3'>
+            <h2 className=' text-2xl  text-slate-200'>GETTING STARTED</h2>
+            <div className='w-full bg-red-600 bg-gradient-to-l from-black via-red-600 to-black h-[3px]'></div>
+        </div>
+    <ul className='text-zinc-500'>
+        <li>Basics of Play</li>
+        <li>Rules Introduction</li>
+        <li>Choosing a Race</li>
+        <li>Choosing a Class</li>
+    </ul>
+    </div>
+    <div className='flex flex-col'>
+        <div className='mb-3'>
+            <h2 className=' text-2xl  text-slate-200'>RESOURCES</h2>
+            <div className='w-full bg-red-600 bg-gradient-to-l from-black via-red-600 to-black h-[3px]'></div>
+        </div>
+    <ul className='text-zinc-500'>
+        <li>Character Sheets</li>
+        <li>Basic Rules</li>
+        <li>DMsGuild</li>
+        <li>Dragon+</li>
+        <li>Newsletter</li>
+        <li>Stay at Home/Play at Home</li>
+    </ul>
+    </div>
 </div>
   )
 }
+
+
+
+
+
+
+
+
+
 
 
 
