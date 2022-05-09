@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { MenuIcon } from '@heroicons/react/outline';
+import { MenuIcon, LocationMarkerIcon, UserIcon } from '@heroicons/react/outline';
 import DndLogo from '../assets/dndLogo';
 import DropDownProducts from './dropdownHeader/DropDownProducts';
 import DropDownGameplay from './dropdownHeader/DropDownGameplay';
 import DropDownStory from './dropdownHeader/DropDownStory';
 import DropDownEvents from './dropdownHeader/DropDownEvents';
+
 
 export default function Header() {
 	const [activeProduct1 ,setActiveProduct1] = useState(false);
@@ -62,8 +63,14 @@ export default function Header() {
 					</button>
 				</div>
 				<div className='hidden md:flex'>
-					<h2 className='text-1xl px-4 hover:text-red-700 text-zinc-700'>Store Locator</h2>
-					<h2 className='text-1xl hover:text-red-700 text-zinc-700'>Account</h2>
+					<div className='flex px-4 '>
+						<LocationMarkerIcon className='w-5 text-zinc-700 mr-1'/>
+						<h2 className='text-1xl hover:text-red-700 text-zinc-700'>Store Locator</h2>
+					</div>
+					<div className='flex px-4 '>
+						<UserIcon className='w-5 text-zinc-700 mr-1' />
+						<h2 className='text-1xl hover:text-red-700 text-zinc-700'>Account</h2>
+					</div>
 				</div>
 			</div>
 					<DropDownProducts active={activeProduct1}/>
