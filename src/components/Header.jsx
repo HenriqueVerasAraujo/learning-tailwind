@@ -57,8 +57,8 @@ export default function Header() {
 					<button onClick={onClickFunction3}>
 						<h2 className='px-4 text-1xl hover:cursor-pointer hover:text-red-700 text-zinc-700 font-bold'>STORY</h2>
 					</button>
-					<button nClick={onClickFunction4}>
-						<h2 o className='px-4 text-1xl hover:cursor-pointer hover:text-red-700 text-zinc-700 font-bold'>EVENTS</h2>
+					<button onClick={onClickFunction4}>
+						<h2 className='px-4 text-1xl hover:cursor-pointer hover:text-red-700 text-zinc-700 font-bold'>EVENTS</h2>
 					</button>
 				</div>
 				<div className='hidden md:flex'>
