@@ -8,8 +8,8 @@ export default function FeatureSection() {
   return (
     <div className='w-full h-screen font-Roboto bg-red-600 relative'>
         <div className='flex flex-col absolute inset-x-0 z-10 mt-[80px] items-center justify-center'>
-            <h1 className='text-5xl font-bold text-zinc-700'>Latest Features & Announcements</h1>
-            <div className='bg-red-600 w-[1300px] h-[700px] flex flex-wrap'>
+            <h1 className='text-5xl font-bold text-zinc-700 mb-[40px]'>Latest Features & Announcements</h1>
+            <div className=' w-[1300px] h-[700px] flex flex-wrap'>
                 <Box2 image={boxValues[0].image} title={boxValues[0].title} logo={boxValues[0].logo}/>
                 <Box1 image={boxValues[1].image} title={boxValues[1].title} logo={boxValues[1].logo} />
                 <Box1 image={boxValues[2].image} title={boxValues[2].title} logo={boxValues[2].logo} />
