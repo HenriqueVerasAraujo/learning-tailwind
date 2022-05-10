@@ -1,4 +1,5 @@
 import React from 'react'
+import FeatureSection from '../components/FeatureSection'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 
@@ -7,6 +8,7 @@ export default function MainPage() {
     <div className='w-full h-screen bg-black'>
       <Header />
       <Hero />
+      <FeatureSection />
     </div>
   )
 }
