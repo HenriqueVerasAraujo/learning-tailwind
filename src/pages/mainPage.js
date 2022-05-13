@@ -12,6 +12,7 @@ export default function MainPage() {
       <Hero />
       <FeatureSection />
       <SignUp />
+      <div className='w-full h-[80px] bg-stone-200'></div>
       <DragonComponent />
     </div>
   )

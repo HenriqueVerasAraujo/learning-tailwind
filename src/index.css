@@ -12,4 +12,7 @@
     .my-class {
         clip-path: polygon(0 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%);
     }
+    .my-class2 {
+        clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),calc(100% - 50px) 100%,0 100%);
+    }
 }
