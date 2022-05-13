@@ -6,7 +6,7 @@ import SignUp from '../components/SignUP'
 
 export default function MainPage() {
   return (
-    <div className='w-full h-screen bg-black'>
+    <div className='w-full bg-black'>
       <Header />
       <Hero />
       <FeatureSection />
