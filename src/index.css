@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
+@layer base {
     body {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', sans-serif,
     }
-} */
+}
+
+@layer utilities {
+    .my-class {
+        clip-path: polygon(0 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%);
+    }
+}
