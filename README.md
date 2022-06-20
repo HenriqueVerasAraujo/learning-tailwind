@@ -1,1 +1,1 @@
-Repositório para práticas de tailwind.  
+Repositório para práticas de tailwind.
